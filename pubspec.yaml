@@ -1,0 +1,36 @@
+name: firebase_realtime
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.7.1
+  firebase_database: ^10.1.0
+  firebase_storage: ^11.0.15
+  cloud_firestore: ^4.4.5
+  image_picker: ^1.0.4
+  firebase_auth: ^4.3.0
+  google_sign_in: ^6.0.2
+  shared_preferences: ^2.0.20
+  carousel_slider: ^4.2.1
+  url_launcher: ^6.1.12
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  #
